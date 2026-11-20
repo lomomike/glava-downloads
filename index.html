@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <meta name="description" content="Глава — плеер для ваших аудиокниг на Android. Добавляйте книги из папок, слушайте офлайн и возвращайтесь к сохранённому месту.">
+  <title>Глава — ваши аудиокниги на Android</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead wrap">
+    <a class="brand" href="#top" aria-label="Глава, в начало страницы"><img src="assets/icon.png" width="40" height="40" alt="">Глава</a>
+    <nav aria-label="Навигация"><a class="inside-link" href="#inside">Внутри приложения</a><a class="nav-action" href="#download">Скачать</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="headline">
+      <div class="intro">
+        <p class="eyebrow"><span class="rule"></span>Аудиоплеер для Android</p>
+        <h1 id="headline">Слушайте<br><em>свои книги.</em></h1>
+        <p class="lead">Соберите аудиокниги из папок на телефоне. Слушайте офлайн и возвращайтесь туда, где остановились.</p>
+        <div class="actions" id="download">
+          <a class="button store" href="https://www.rustore.ru/catalog/app/app.glava">
+            <img src="assets/rustore.svg" alt="" width="36" height="36">
+            Открыть в RuStore
+          </a>
+          <!-- Когда появится публичный APK, замените button на a с классом "button apk" и адресом файла в href. -->
+          <button class="button apk" type="button" disabled>Скачать APK <small>Скоро</small></button>
+        </div>
+        <p class="compatibility">Для Android 8.0 и новее</p>
+      </div>
+      <figure class="art">
+        <img src="assets/book-landscape.jpg" width="1350" height="900" fetchpriority="high" alt="Книжная гравюра. Страницы раскрытой книги переходят в реку среди елей и гор.">
+        <span class="ribbon" aria-hidden="true"></span>
+      </figure>
+    </section>
+    <div class="features"><div class="wrap feature-grid">
+      <article><span class="glyph books" aria-hidden="true"><i></i><i></i><i></i></span><div><h2>Своя библиотека</h2><p>MP3, M4A и M4B из ваших папок</p></div></article>
+      <article><span class="glyph mark" aria-hidden="true"></span><div><h2>Последнее место</h2><p>Плеер запоминает, где вы остановились</p></div></article>
+      <article><span class="glyph moon" aria-hidden="true"></span><div><h2>Таймер сна</h2><p>На время или до конца главы</p></div></article>
+    </div></div>
+    <section id="inside" class="screens wrap" aria-labelledby="screens-title">
+      <div class="section-head"><h2 id="screens-title">Внутри приложения</h2><span class="flourish" aria-hidden="true">❦</span></div>
+      <p class="theme-note">По умолчанию «Глава» следует теме телефона. Светлую или тёмную тему можно выбрать и в настройках плеера.</p>
+      <fieldset class="theme-preview">
+        <legend>Тема на скриншотах</legend>
+        <input type="radio" name="preview-theme" id="preview-light" checked>
+        <label for="preview-light">Светлая</label>
+        <input type="radio" name="preview-theme" id="preview-dark">
+        <label for="preview-dark">Тёмная</label>
+      <div class="gallery gallery-light">
+        <figure><div class="screen-box sage"><img loading="lazy" src="assets/library.png" width="323" height="700" alt="Экран «Мои книги» с поиском и кнопкой продолжения прослушивания"></div><figcaption><h3>Библиотека</h3><p>Найдите книгу по названию или автору.</p></figcaption></figure>
+        <figure><div class="screen-box clay"><img loading="lazy" src="assets/player.png" width="315" height="700" alt="Плеер «Таинственного острова» с обложкой, перемоткой и таймером сна"></div><figcaption><h3>Плеер</h3><p>Подберите скорость и поставьте закладку.</p></figcaption></figure>
+        <figure><div class="screen-box blue"><img loading="lazy" src="assets/chapters.png" width="315" height="700" alt="Экран оглавления аудиокниги"></div><figcaption><h3>Главы</h3><p>Откройте оглавление и выберите главу.</p></figcaption></figure>
+      </div>
+      <div class="gallery gallery-dark">
+        <figure><div class="screen-box sage"><img loading="lazy" src="assets/library-dark.png" width="315" height="700" alt="Библиотека в тёмной теме с карточкой «Продолжить слушать»"></div><figcaption><h3>Библиотека</h3><p>Вернитесь к последней книге с главного экрана.</p></figcaption></figure>
+        <figure><div class="screen-box clay"><img loading="lazy" src="assets/player-dark.png" width="315" height="700" alt="Тёмный плеер с обложкой «Таинственного острова» и таймером сна"></div><figcaption><h3>Плеер</h3><p>Перед сном включите таймер до конца главы.</p></figcaption></figure>
+        <figure><div class="screen-box blue"><img loading="lazy" src="assets/settings-dark.png" width="315" height="700" alt="Настройки приложения, в разделе «Оформление» выбрана тёмная тема"></div><figcaption><h3>Оформление</h3><p>Откройте «Настройки» → «Оформление» → «Тема».</p></figcaption></figure>
+      </div>
+      </fieldset>
+    </section>
+  </main>
+  <footer class="wrap"><span class="footer-brand">Глава</span><a href="#top">К началу страницы</a></footer>
+</body>
+</html>
